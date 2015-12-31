@@ -1,19 +1,13 @@
 ---
 layout: page
-title: About Pixyll
+title: About Measured Beauty
 permalink: /about/
 ---
 
-This Jekyll theme was crafted with <3 by [John Otander](http://johnotander.com)
-([@4lpine](https://twitter.com/4lpine)).
+*Measured Beauty* reveals the beauty of our world through the measurements we make of it.
 
-Checkout the [Github repository](https://github.com/johnotander/pixyll) to download it,
-request a feature, report a bug, or contribute. It's free, and open source
-([MIT](http://opensource.org/licenses/MIT)).
+Plots from scientific research papers are stripped of their borders and annotations to expose their raw data, which can then be appreciated in it's own right, a reflection of our world through the rational human lens.
 
-Thanks to the following:
+***
 
-* [BASSCSS](http://basscss.com)
-* [Jekyll](http://jekyllrb.com)
-* [Refills](http://refills.bourbon.io/)
-* [Type Scale](http://type-scale.com/)
+All image rights belong to the authors of the respective papers. 

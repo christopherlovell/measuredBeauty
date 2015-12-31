@@ -1,35 +1,35 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+title:       Measured Beauty
+email:       chrisl1991@hotmail.co.uk
+author:      Christopher Lovell
+description: "The beauty of our world revealed through human analysis."
 baseurl:     ""
-url:         "http://pixyll.com"
-date_format: "%b %-d, %Y"
+url:         ""
+date_format: "%-d %b, %Y"
 
 # Google services
 google_analytics:
 google_verification:
 
 # Optional features
-animated:             false
-show_related_posts:   false
-show_post_footers:    false
-show_social_icons:    false
-ajaxify_contact_form: false
+animated:             true
+show_related_posts:   true
+show_post_footers:    true
+show_social_icons:    true
+ajaxify_contact_form: true
 
 # Disqus post comments
 # (leave blank to disable Disqus)
-disqus_shortname:
+disqus_shortname: polyphant
 
 # Facebook Comments plugin
 # (leave blank to disable Facebook Comments, otherwise set it to true)
-facebook_comments: 
-facebook_appid: 
+facebook_comments:
+facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
-github_username:
+github_username: polyphant1
 bitbucket_username:
 stackoverflow_id:
 twitter_username:
@@ -38,7 +38,7 @@ linkedin_username:
 angellist_username:
 medium_id:
 bitcoin_url:
-paypal_url:
+paypal_url: www.paypal.me/polyphant
 flattr_button:
 
 # Post sharing icons
@@ -60,6 +60,6 @@ markdown:     kramdown
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    pretty
-paginate:     4
+paginate:     10
 sass:
   compressed: true
