@@ -4,7 +4,7 @@ email:       chrisl1991@hotmail.co.uk
 author:      Christopher Lovell
 description: "The beauty of our world revealed through human analysis."
 baseurl:     ""
-url:         ""
+#url:         ""
 date_format: "%-d %b, %Y"
 
 # Google services
@@ -24,36 +24,26 @@ disqus_shortname: polyphant
 
 # Facebook Comments plugin
 # (leave blank to disable Facebook Comments, otherwise set it to true)
-facebook_comments:
-facebook_appid:
-facebook_comments_number: 10
+# facebook_comments:
+# facebook_appid:
+# facebook_comments_number: 10
 
 # Social icons
 github_username: polyphant1
-bitbucket_username:
-stackoverflow_id:
-twitter_username:
-google_plus_id:
-linkedin_username:
-angellist_username:
-medium_id:
-bitcoin_url:
+stackoverflow_id: 1718096/polyphant
+twitter_username: polyphantastic
+medium_id: '@polyphant'
 paypal_url: www.paypal.me/polyphant
-flattr_button:
 
 # Post sharing icons
 show_sharing_icons: false
-share_text: 'Share this post!'
 # Change to 'true' to enable individual icons
-share_facebook: false
-share_twitter: false
-share_googleplus: false
+share_facebook: true
+share_twitter: true
 share_linkedin: false
-share_digg: false
-share_tumblr: false
-share_reddit: false
-share_stumbleupon: false
-share_hackernews: false
+share_tumblr: true
+share_reddit: true
+share_stumbleupon: true
 
 # Build settings
 markdown:     kramdown

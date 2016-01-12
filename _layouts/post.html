@@ -7,26 +7,21 @@ layout: default
 {% assign minutes = 1 %}
 {% endif %}
 
-<div class="post-header mb2">
-  <h1>{{ page.title }}</h1>
-  <span class="post-meta">{{ page.date | date: site.date_format }}</span><br>
-  {% if page.update_date %}
-    <span class="post-meta">Updated: {{ page.update_date | date: site.date_format }}</span><br>
-  {% endif %}
-  <span class="post-meta small">
-  {% if page.minutes %}
-    {{ page.minutes }} minute read
-  {% else %}
-    {{ minutes }} minute read
-  {% endif %}
-  </span>
-</div>
 
 <article class="post-content">
+  <em><img src="{{ page.image }}" alt='image'></em>
   <hr>
-  <img src="{{ page.image }}" alt='image'>
-  <img src="{{ page.raw_image }}" alt='raw image'>
+  <div class="post-header mb2">
+    <h2>{{ page.title }}</h2>
+    <span class="post-meta">{{ page.date | date: site.date_format }}</span><br>
+
+    <br><a href="{{ page.paper }}" target="blank"><span class="post-meta">{{ page.summary }}</span></a><br>
+    <span class="post-meta">Published: {{ page.published | date: '%B, %Y' }}</span><br>
+  </div>
   {{ content }}
+  <hr>
+  <img src="{{ page.raw_image }}" alt='raw image'>
+  <hr>
 </article>
 
 {% if site.show_sharing_icons %}
@@ -64,6 +59,9 @@ layout: default
       <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
         <h4 class="post-title">{{ post.title }}</h4>
         <p class="post-summary">{{ post.summary }}</p>
+        <div id="imgContainer">
+          <img class='related-resize' src="{{ post.image }}" alt='image'>
+        </div>
       </a>
     </div>
   {% endfor %}
