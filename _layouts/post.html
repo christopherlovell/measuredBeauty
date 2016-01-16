@@ -7,7 +7,6 @@ layout: default
 {% assign minutes = 1 %}
 {% endif %}
 
-
 <article class="post-content">
   <em><img src="{{ page.image }}" alt='image'></em>
   <hr>
@@ -20,7 +19,7 @@ layout: default
   </div>
   {{ content }}
   <hr>
-  <img src="{{ page.raw_image }}" alt='raw image'>
+  <a href="{{ page.paper }}" target="blank" style="text-decoration: none"><img src="{{ page.raw_image }}" alt='raw image'></a>
   <hr>
 </article>
 

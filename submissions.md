@@ -4,14 +4,17 @@ title: Submissions
 permalink: /submissions/
 ---
 
-Submissions to *Measured Beauty* are welcome. Please follow these guidelines when preparing your submission, then use the form below to express your interest and idea. I reserve editorial discretion.
+Submissions to *Measured Beauty* are welcome! We encourage submissions from all scientific disciplines.
+
+Use the form below to express your interest and idea, and we will endeavor to get back to you as soon as possible. Please follow these guidelines when preparing your submission.
 
 - The original data should be from real world observations. Plots based on simulation data are not currently accepted.
 - 'Cleaned' images should, where possible, have no axis, labels or surrounding text.
 - Both the original as well as the 'cleaned' image must be submitted.
-- Submissions including a short (max. 500 words) lay-mans description of what the plot shows will be prioritised.
+- Submissions including a short (max. 500 words) layman's description of what the paper is about, and what the original plot shows will be prioritised.
 - Authors of papers with higher resolution original images available are encouraged to submit these rather than screen grabs from papers.
 
+We reserve editorial discretion.
 
 <div class="py2">
   {% if site.ajaxify_contact_form %}

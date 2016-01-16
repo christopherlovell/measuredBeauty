@@ -2,8 +2,9 @@
 title:       Measured Beauty
 email:       chrisl1991@hotmail.co.uk
 author:      Christopher Lovell
-description: "The beauty of our world revealed through human analysis."
+description: "Revealing the abstract beauty hidden in scientific research"
 baseurl:     ""
+url: "http://measuredbeauty.com"
 #url:         ""
 date_format: "%-d %b, %Y"
 
@@ -29,21 +30,22 @@ disqus_shortname: polyphant
 # facebook_comments_number: 10
 
 # Social icons
-github_username: polyphant1
-stackoverflow_id: 1718096/polyphant
-twitter_username: polyphantastic
-medium_id: '@polyphant'
+github_username: polyphant1/measuredBeauty
+stackoverflow_id:
+twitter_username: Measured_Beauty
+medium_id:
 paypal_url: www.paypal.me/polyphant
+instagram_username: measuredbeauty
 
 # Post sharing icons
-show_sharing_icons: false
+show_sharing_icons: true
 # Change to 'true' to enable individual icons
 share_facebook: true
 share_twitter: true
 share_linkedin: false
-share_tumblr: true
-share_reddit: true
-share_stumbleupon: true
+share_tumblr: false
+share_reddit: false
+share_stumbleupon: false
 
 # Build settings
 markdown:     kramdown
