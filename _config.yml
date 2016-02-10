@@ -9,7 +9,7 @@ url: "http://measuredbeauty.com"
 date_format: "%-d %b, %Y"
 
 # Google services
-google_analytics: UA-72600047-1
+google_analytics: 'UA-72600047-1'
 google_verification:
 
 # Optional features
